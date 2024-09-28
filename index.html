@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mochamad Akbar - Portfolio</title>
+
+  <!-- Google Fonts - Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            roboto: ['Roboto', 'sans-serif'],
+          },
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+    }
+  </style>
+</head>
+<body class='bg-gray-100 w-full h-full font-roboto'>
+  <nav class='flex flex-row container mx-auto py-8'>
+    <div class='w-[70px] h-auto'>
+      <img src="./public/pin-poin.png" alt="Logo" class="w-full h-auto rounded-lg shadow-lg">
+    </div>
+  </nav>
+
+  <main class='container mx-auto py-8'>
+    <div class='flex flex-col items-center justify-center gap-8 my-4'>
+      <div class='flex flex-col items-center justify-center gap-4'>
+        <div class="w-72 h-72 p-1 rounded-full" style="background: linear-gradient(to right, #bcb7b3, #adaea9);">
+          <div class="w-full h-full bg-center bg-cover bg-no-repeat rounded-full"
+               style="background-image: url('./public/mochamad-akbar-profile.png');"></div>
+        </div>
+        <h1 class='text-xl font-bold text-gray-500'>Mochamad Akbar</h1>
+      </div>
+      <h1 class='text-6xl font-bold text-center'>Software Engineer</h1>
+    </div>
+
+    <div class='flex flex-col items-center justify-center my-8'>
+      <p class='text-xl text-center'>
+        Forward-thinking Software Engineer and Blockchain Developer with expertise in PHP, Go, Python, Node.js, Solidity, and more. Experienced in leading projects and teams, delivering scalable solutions across various platforms with speed and accuracy.
+      </p>
+    </div>
+
+    <div class='flex justify-center my-8'>
+      <a href="mailto:mochakbar912@gmail.com" class="bg-gray-500 text-white text-center font-semibold py-2 px-4 rounded-lg shadow hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50 transition duration-200">
+        Hire Me
+      </a>
+    </div>
+
+    <section class='my-8'>
+      <div class='flex flex-row items-start gap-4'>
+        <div class='flex flex-col items-start gap-4 w-1/2'>
+          <h1 class='text-2xl font-bold'>Portfolio</h1>
+          <p class='text-xl text-gray-500'>
+            I have brought here my biggest and top 5 favorite works as a professional.
+          </p>
+        </div>
+        <div class='flex flex-col gap-4 w-1/2'>
+          <div class='flex flex-row items-start gap-4'>
+            <h1 class='text-2xl font-bold'>01</h1>
+            <div class='flex flex-col gap-4'>
+              <h1 class='text-2xl font-bold'>Tanahub</h1>
+              <p class='text-xl text-gray-500'>
+                Tanahub is a platform focused on real estate and property management, combining features like Soulbound Tokens for membership, property ownership, token-based earnings, and stablecoin-like transactions. The platform aims to provide a secure, KYC-compliant environment for users to interact, invest, and manage real-world assets with potential integration into blockchain technology in the future.
+              </p>
+              <a href="https://www.tanahub.com/" class="bg-gray-500 text-white text-center font-semibold py-2 px-4 rounded-lg shadow hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50 transition duration-200">
+                Visit
+              </a>
+            </div>
+          </div>
+          <div class='flex flex-row items-start gap-4'>
+            <h1 class='text-2xl font-bold'>02</h1>
+            <div class='flex flex-col gap-4'>
+              <h1 class='text-2xl font-bold'>Kayaroll</h1>
+              <p class='text-xl text-gray-500'>
+                Kayaroll is a payroll solution platform for MSMEs and Start-ups that is here to help and strengthen MSMEs and Start-ups as well as their employees, by creating payroll solutions that are easy to use, simple and easier. Kayaroll System is responsive so it can be accessed via PC and smartphone.
+              </p>
+            </div>
+          </div>
+          <div class='flex flex-row items-start gap-4'>
+            <h1 class='text-2xl font-bold'>03</h1>
+            <div class='flex flex-col gap-4'>
+              <h1 class='text-2xl font-bold'>Bioskop Online</h1>
+              <p class='text-xl text-gray-500'>
+                Bioskop Online is a Transactional Video On Demand (TVOD) service that presents quality local content created by people from indonesia.
+              </p>
+              <a href="https://bioskoponline.com/" class="bg-gray-500 text-white text-center font-semibold py-2 px-4 rounded-lg shadow hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50 transition duration-200">
+                Visit
+              </a>
+            </div>
+          </div>
+          <div class='flex flex-row items-start gap-4'>
+            <h1 class='text-2xl font-bold'>04</h1>
+            <div class='flex flex-col gap-4'>
+              <h1 class='text-2xl font-bold'>Bahana TCW</h1>
+              <p class='text-xl text-gray-500'>
+                CMS that manages investment data for internal use of Bahana TCW company for their product called KIK EBA for collective investment.
+              </p>
+            </div>
+          </div>
+          <div class='flex flex-row items-start gap-4'>
+            <h1 class='text-2xl font-bold'>05</h1>
+            <div class='flex flex-col gap-4'>
+              <h1 class='text-2xl font-bold'>Treasury</h1>
+              <p class='text-xl text-gray-500'>
+                Treasury is a fintech application that provides gold and crypto trading. The app is available on Google Play and App Store.
+              </p>
+              <a href="https://www.treasury.id/" class="bg-gray-500 text-white text-center font-semibold py-2 px-4 rounded-lg shadow hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50 transition duration-200">
+                Visit
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class='my-8'>
+      <div class='flex flex-row items-start gap-4'>
+        <div class='flex flex-col items-start gap-4 w-[50%]'>
+          <h1 class='text-2xl font-bold'>My Skills</h1>
+          <p class='text-xl text-gray-500'>Here are some of the technologies and languages I'm proficient in:</p>
+        </div>
+      </div>
+      <div class='flex flex-row items-center justify-center gap-4 my-4'>
+        <div class='flex flex-col items-center'>
+          <img src="./public/php-icon.png" alt="PHP" class='h-12 w-auto max-h-12 object-contain'>
+        </div>
+        <div class='flex flex-col items-center'>
+          <img src="./public/python-icon.jpeg" alt="Python" class='h-12 w-auto max-h-12 object-contain'>
+        </div>
+        <div class='flex flex-col items-center'>
+          <img src="./public/go-icon.png" alt="Go" class='h-10 w-auto max-h-10 object-contain'>
+        </div>
+        <div class='flex flex-col items-center'>
+          <img src="./public/nodejs-icon.jpeg" alt="NodeJS" class='h-12 w-auto max-h-12 object-contain'>
+        </div>
+        <div class='flex flex-col items-center'>
+          <img src="./public/rust-icon.svg" alt="Rust" class='h-16 w-auto max-h-16 object-contain'>
+        </div>
+        <div class='flex flex-col items-center'>
+          <img src="./public/react-icon.svg" alt="React" class='h-12 w-auto max-h-12 object-contain'>
+        </div>
+        <div class='flex flex-col items-center'>
+          <img src="./public/vue-icon.png" alt="Vue" class='h-12 w-auto max-h-12 object-contain'>
+        </div>
+        <div class='flex flex-col items-center'>
+          <img src="./public/angular-icon.png" alt="Angular" class='h-12 w-auto max-h-12 object-contain'>
+        </div>
+        <div class='flex flex-col items-center'>
+          <img src="./public/solidity-icon.png" alt="Solidity" class='h-12 w-auto max-h-12 object-contain'>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
